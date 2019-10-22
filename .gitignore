@@ -1,7 +1,10 @@
 # Idea files
 .idea
 
-
+# Test Repositories
+test_repo/
+test_repo_clone_obs/
+test_repo_clone_runner/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

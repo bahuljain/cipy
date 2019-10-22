@@ -39,3 +39,16 @@ Once you have finished working with this project deactivate the virtual environm
 deactivate
 ```
 
+### About
+
+The CI system will run periodically. This means if it is set up to check for changes in five-second periods, it will run tests against the most recent commit made after the five-second period. It won't test every commit made within that period of time, only the most recent one.
+
+This project uses Git as the repository for the code that needs to be tested.
+
+We will only run tests that are in a directory named tests within the repository.
+
+### Components
+
+1. Repository Observer
+2. Test Job Dispatcher
+3. Test Runner
